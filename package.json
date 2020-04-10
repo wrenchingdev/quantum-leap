@@ -1,0 +1,58 @@
+{
+    "name": "quantum-leap",
+    "displayName": "Quantum",
+    "description": "Make the Leap with your editor and start coding in the New Age with this extension pack.",
+    "publisher": "wrenchingdev",
+    "repository": "https://github.com/firehawk09/quantum-leap",
+    "version": "0.0.6",
+    "scripts": {
+      "publishMajor": "npm version major && rm quantum-leap-* && vsce package && vsce publish",
+      "publishMinor": "npm version minor && rm quantum-leap-* && vsce package && vsce publish",
+      "publishPatch": "npm version patch && rm quantum-leap-* && vsce package && vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "aaron-bond.better-comments",
+        "burkeholland.simple-react-snippets",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "cmstead.jsrefactor",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "eg2.vscode-npm-script",
+        "foxundermoon.shell-format",
+        "mikestead.dotenv",
+        "monokai.theme-monokai-pro-vscode",
+        "msjsdiag.debugger-for-chrome",
+        "PKief.material-icon-theme",
+        "wix.vscode-import-cost"
+    ],
+    "keywords": [
+        "Extension Pack",
+        "react snippets",
+        "markdownLint",
+        "Gitlens",
+        "better comments",
+        "import cost",
+        "material icon theme",
+        "debugger for Chrome",
+        "monokai pro",
+        "dotenv",
+        ".env",
+        "shell format",
+        "prettier",
+        "esLint",
+        "bracket pair colorizer",
+        "js refactor",
+        "npm intellisense",
+        "es6 snippets",
+        "js snippets"
+    ]
+}
