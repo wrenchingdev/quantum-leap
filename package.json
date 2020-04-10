@@ -4,11 +4,11 @@
     "description": "Make the Leap with your editor and start coding in the New Age with this extension pack.",
     "publisher": "wrenchingdev",
     "repository": "https://github.com/firehawk09/quantum-leap",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "scripts": {
-      "publishMajor": "npm version major && rm quantum-leap-* && vsce package && vsce publish",
-      "publishMinor": "npm version minor && rm quantum-leap-* && vsce package && vsce publish",
-      "publishPatch": "npm version patch && rm quantum-leap-* && vsce package && vsce publish"
+        "publishMajor": "npm version major && rm quantum-leap-* && vsce package && vsce publish",
+        "publishMinor": "npm version minor && rm quantum-leap-* && vsce package && vsce publish",
+        "publishPatch": "npm version patch && rm quantum-leap-* && vsce package && vsce publish"
     },
     "engines": {
         "vscode": "^1.43.0"
