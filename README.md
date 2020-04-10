@@ -55,11 +55,7 @@ Feel free to use these as a base to get started customizing your editor.
     "*.scpt": "shellscript"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.arrowParens": "avoid",
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "none",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "window.zoomLevel": 0,
@@ -68,7 +64,10 @@ Feel free to use these as a base to get started customizing your editor.
 
   "workbench.startupEditor": "readme",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
 ```
