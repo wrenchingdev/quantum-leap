@@ -40,6 +40,7 @@
         "eamodio.gitlens",
         "eg2.vscode-npm-script",
         "monokai.theme-monokai-pro-vscode",
+        "naumovs.color-highlight",
         "PKief.material-icon-theme"
     ],
     "keywords": [
