@@ -1,5 +1,12 @@
 # Publishing extensions
 
+## VSCE Installation
+Make sure you have Node.js installed. Then run:
+
+```shell
+npm install -g vsce
+```
+
 ## Publishing Commands
 
 `vsce login <publisher>`
