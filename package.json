@@ -3,15 +3,20 @@
     "displayName": "Quantum",
     "description": "Make the Leap with your editor and start coding in the New Age with this extension pack.",
     "publisher": "wrenchingdev",
-    "repository": "https://github.com/firehawk09/quantum-leap",
-    "version": "0.0.7",
+    "repository": {
+        "url": "https://github.com/wrenchingdev/quantum-leap",
+        "type": "git"
+    },
+    "version": "1.1.0",
+    "icon": "icon-quantum-laptop.png",
     "scripts": {
-        "publishMajor": "npm version major && rm quantum-leap-* && vsce package && vsce publish",
-        "publishMinor": "npm version minor && rm quantum-leap-* && vsce package && vsce publish",
-        "publishPatch": "npm version patch && rm quantum-leap-* && vsce package && vsce publish"
+        "major": "npm version major && npm run vsce",
+        "minor": "npm version minor && npm run vsce",
+        "patch": "npm version patch && npm run vsce",
+        "vsce": "rm quantum-leap-*; vsce package && vsce publish"
     },
     "engines": {
-        "vscode": "^1.43.0"
+        "vscode": "^1.56.0"
     },
     "categories": [
         "Extension Packs",
@@ -35,13 +40,13 @@
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "cmstead.js-codeformer",
-        "CoenraadS.bracket-pair-colorizer-2",
         "dbaeumer.vscode-eslint",
         "eamodio.gitlens",
         "eg2.vscode-npm-script",
         "monokai.theme-monokai-pro-vscode",
         "naumovs.color-highlight",
-        "PKief.material-icon-theme"
+        "PKief.material-icon-theme",
+        "wrenchingdev.quantum-node-pack"
     ],
     "keywords": [
         "Extension Pack",

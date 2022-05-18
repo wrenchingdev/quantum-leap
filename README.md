@@ -44,6 +44,7 @@ Feel free to use these as a base to get started customizing your editor.
 {
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
+  "editor.detectIndentation": false,
   "editor.formatOnSave": false,
   "editor.minimap.enabled": false,
   "editor.suggestSelection": "first",
@@ -54,15 +55,15 @@ Feel free to use these as a base to get started customizing your editor.
   "files.associations": {
     "*.scpt": "shellscript"
   },
+  "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "terminal.integrated.rendererType": "dom",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "window.zoomLevel": 0,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "telemetry.telemetryLevel": "off",
   "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "workbench.iconTheme": "material-icon-theme",
-
   "workbench.startupEditor": "readme",
+
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
