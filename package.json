@@ -7,16 +7,16 @@
         "url": "https://github.com/wrenchingdev/quantum-leap",
         "type": "git"
     },
-    "version": "1.1.0",
+    "version": "1.2.0",
     "icon": "icon-quantum-laptop.png",
     "scripts": {
-        "major": "npm version major && npm run vsce",
-        "minor": "npm version minor && npm run vsce",
-        "patch": "npm version patch && npm run vsce",
+        "major": "pnpm version major && pnpm run vsce",
+        "minor": "pnpm version minor && pnpm run vsce",
+        "patch": "pnpm version patch && pnpm run vsce",
         "vsce": "rm quantum-leap-*; vsce package && vsce publish"
     },
     "engines": {
-        "vscode": "^1.56.0"
+        "vscode": "^1.94.0"
     },
     "categories": [
         "Extension Packs",
@@ -42,7 +42,6 @@
         "cmstead.js-codeformer",
         "dbaeumer.vscode-eslint",
         "eamodio.gitlens",
-        "eg2.vscode-npm-script",
         "monokai.theme-monokai-pro-vscode",
         "naumovs.color-highlight",
         "PKief.material-icon-theme",
