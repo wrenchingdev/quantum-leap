@@ -1,78 +1,51 @@
 {
-    "name": "quantum-leap",
-    "displayName": "Quantum",
-    "description": "Make the Leap with your editor and start coding in the New Age with this extension pack.",
+    "name": "quantum-node-pack",
+    "displayName": "Quantum Node.js Pack",
+    "description": "Take the leap with your editor and start coding in the New Age. This Extension pack includes popular VS Code extensions for Node.js development to be used as an add-on to the Quantum Extension pack or by itself.",
     "publisher": "wrenchingdev",
-    "repository": {
-        "url": "https://github.com/wrenchingdev/quantum-leap",
-        "type": "git"
-    },
-    "version": "1.2.0",
-    "icon": "icon-quantum-laptop.png",
+    "version": "1.1.0",
     "scripts": {
         "major": "pnpm version major && pnpm run vsce",
         "minor": "pnpm version minor && pnpm run vsce",
         "patch": "pnpm version patch && pnpm run vsce",
         "vsce": "rm quantum-leap-*; vsce package && vsce publish"
     },
+    "icon": "icon-nodejs-dark.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wrenchingdev/quantum-node-pack"
+    },
     "engines": {
         "vscode": "^1.94.0"
     },
     "categories": [
-        "Extension Packs",
-        "Programming Languages",
-        "Snippets",
-        "Linters",
-        "Themes",
-        "Debuggers",
-        "Formatters",
-        "Keymaps",
-        "SCM Providers",
-        "Other",
-        "Language Packs",
-        "Data Science",
-        "Machine Learning",
-        "Visualization"
+        "Extension Packs"
     ],
     "extensionPack": [
-        "aaron-bond.better-comments",
-        "burkeholland.simple-react-snippets",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
-        "cmstead.js-codeformer",
         "dbaeumer.vscode-eslint",
-        "eamodio.gitlens",
-        "monokai.theme-monokai-pro-vscode",
-        "naumovs.color-highlight",
-        "PKief.material-icon-theme",
-        "wrenchingdev.quantum-node-pack"
+        "xabikos.JavaScriptSnippets"
     ],
     "keywords": [
         "Extension Pack",
         "react snippets",
+        "markdownLint",
         "Gitlens",
         "better comments",
+        "import cost",
         "material icon theme",
-        "material icon",
-        "material theme",
+        "debugger for Chrome",
         "monokai pro",
         "dotenv",
         ".env",
-        "env",
+        "shell format",
         "prettier",
         "esLint",
-        "colorizer",
         "bracket pair colorizer",
-        "bracket colorizer",
-        "bracket pair colorizer 2",
-        "js codeformer",
         "js refactor",
-        "codeformer",
-        "npm",
-        "jsx",
-        "es6",
+        "npm intellisense",
         "es6 snippets",
-        "js snippets",
-        "jsx snippets"
+        "js snippets"
     ]
 }
